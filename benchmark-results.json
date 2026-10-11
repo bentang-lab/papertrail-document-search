@@ -1,0 +1,148 @@
+{
+  "seed": 20261010,
+  "created_utc": "2026-10-11T01:00:03.477341+00:00",
+  "python": "3.14.0",
+  "sqlite": "3.50.4",
+  "platform": "Windows-10-10.0.19045-SP0",
+  "processor": "AMD64 Family 23 Model 104 Stepping 1, AuthenticAMD",
+  "method": "Warm matching IDs, same connection, exact predicates, ID ordering; excludes BM25, snippets, HTTP and UI. Short queries use scan in both paths.",
+  "repeats": 10,
+  "results": [
+    {
+      "documents": 1000,
+      "build_seconds": 0.36,
+      "database_bytes": 6840320,
+      "source_bytes": 1155238,
+      "corpus_sha256": "634990447885c602f50ef228ba5b86083e90f93b4e380ffa9cc01367d9b7b744",
+      "groups": {
+        "long": {
+          "hits": {
+            "文件搜尋": 116,
+            "Python": 126,
+            "網路協定": 113,
+            "machine learning": 126,
+            "倒排索引 SQLite": 116,
+            "不存在的查詢": 0
+          },
+          "equal_results": true,
+          "index": {
+            "median_ms": 1.042,
+            "p95_ms": 2.201,
+            "samples": 60
+          },
+          "scan": {
+            "median_ms": 8.294,
+            "p95_ms": 15.732,
+            "samples": 60
+          }
+        },
+        "mixed": {
+          "hits": {
+            "SQLite 文": 116,
+            "Python 學": 126,
+            "TCP 網": 113,
+            "project 任": 119
+          },
+          "equal_results": true,
+          "index": {
+            "median_ms": 1.002,
+            "p95_ms": 1.174,
+            "samples": 40
+          },
+          "scan": {
+            "median_ms": 7.84,
+            "p95_ms": 9.204,
+            "samples": 40
+          }
+        },
+        "short": {
+          "hits": {
+            "文": 116,
+            "筆記": 139,
+            "py": 126,
+            "網 路": 113
+          },
+          "equal_results": true,
+          "index": {
+            "median_ms": 8.055,
+            "p95_ms": 9.822,
+            "samples": 40
+          },
+          "scan": {
+            "median_ms": 8.123,
+            "p95_ms": 9.828,
+            "samples": 40
+          }
+        }
+      }
+    },
+    {
+      "documents": 10000,
+      "build_seconds": 3.949,
+      "database_bytes": 58839040,
+      "source_bytes": 11536702,
+      "corpus_sha256": "de238b91b2daabb1a78a6c21c70d38c70a15a7e1e3255a9c56cfc21a4367f2ac",
+      "groups": {
+        "long": {
+          "hits": {
+            "文件搜尋": 1267,
+            "Python": 1214,
+            "網路協定": 1211,
+            "machine learning": 1214,
+            "倒排索引 SQLite": 1267,
+            "不存在的查詢": 0
+          },
+          "equal_results": true,
+          "index": {
+            "median_ms": 10.116,
+            "p95_ms": 13.636,
+            "samples": 60
+          },
+          "scan": {
+            "median_ms": 74.727,
+            "p95_ms": 86.338,
+            "samples": 60
+          }
+        },
+        "mixed": {
+          "hits": {
+            "SQLite 文": 1267,
+            "Python 學": 1214,
+            "TCP 網": 1211,
+            "project 任": 1228
+          },
+          "equal_results": true,
+          "index": {
+            "median_ms": 10.422,
+            "p95_ms": 12.979,
+            "samples": 40
+          },
+          "scan": {
+            "median_ms": 74.87,
+            "p95_ms": 88.456,
+            "samples": 40
+          }
+        },
+        "short": {
+          "hits": {
+            "文": 1267,
+            "筆記": 1291,
+            "py": 1214,
+            "網 路": 1211
+          },
+          "equal_results": true,
+          "index": {
+            "median_ms": 76.366,
+            "p95_ms": 94.979,
+            "samples": 40
+          },
+          "scan": {
+            "median_ms": 72.027,
+            "p95_ms": 93.436,
+            "samples": 40
+          }
+        }
+      }
+    }
+  ]
+}
